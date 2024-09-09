@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@types/jquery": "^3.5.30",
+    "@types/owl.carousel": "^2.3.6",
+    "@types/typed.js": "^2.0.0"
+  }
+}
