@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Menu button click listener for toggling classes
     var menuBtn = document.querySelector('.menu-btn');
     var menu = document.querySelector('.navbar .menu');
-    var menuBtnIcon = document.querySelector('.menu-btn i');
+    var menuBtnIcon = document.querySelector('.menu-btn ');
     menuBtn.addEventListener("click", function () {
         menu.classList.toggle("active");
         menuBtnIcon.classList.toggle("active");

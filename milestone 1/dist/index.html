@@ -211,14 +211,13 @@
             </div>
         </div>
     </section>
-
-
+    
         <div class="max-width">
             <h2 class="title">Recent Projrcts</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="/images/screencapture-quranonlineteacher-2024-07-24-02_32_52.png" alt="">
+                        <img src="#" alt="">
                         <div class="text">georg</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -259,7 +258,8 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>  
+
 
     <!-- contact section start -->
     <section class="contact" id="contact">
@@ -299,7 +299,8 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <!-- <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="39e2721e-1035-4811-ad2f-f785a0470ef9">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -315,9 +316,32 @@
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success">
                             <button type="submit">Send message</button>
                         </div>
+                    </form>  -->
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="39e2721e-1035-4811-ad2f-f785a0470ef9">
+
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+     
+     <input class="field name" type="text" name="name" required>
+    <input class="field email" type="email" name="email" required>
+    <input class="field" type="text" placeholder="Subject" required>
+    <textarea class="field textarea" name="message" required></textarea>
+
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+             <button class="button-area" type="submit">Submit Form</button>
                     </form>
+
                 </div>
             </div>
         </div>
