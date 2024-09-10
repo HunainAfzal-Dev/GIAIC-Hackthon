@@ -89,24 +89,21 @@
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Website development</div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, dicta quaerat!
-                        </p>
+                        <p>I'm skilled in web development, using HTML, CSS, JavaScript, and modern tools like React, Tailwind  to create responsive, dynamic websites.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Wordpress development</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
+                        <div class="text">Wordpress </div>
+                        <p>I’m skilled in WordPress, crafting everything from portfolios to e-commerce and business sites with tailored, engaging solutions.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Shopify</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
+                        <p>I’m proficient in Shopify, crafting sleek and functional online stores that are customized to meet various business needs and enhance user experience.</p>
                     </div>
                 </div>
             </div>
@@ -211,55 +208,6 @@
             </div>
         </div>
     </section>
-    
-        <div class="max-width">
-            <h2 class="title">Recent Projrcts</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="#" alt="">
-                        <div class="text">georg</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                Modal Structure
-                <div id="imageModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="modalImage">
-                    <div id="caption"></div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-2.jpeg" alt="">
-                        <div class="text">Anie</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">rdx</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">milen</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-5.jpeg" alt="">
-                        <div class="text">shafferd</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>  
-
 
     <!-- contact section start -->
     <section class="contact" id="contact">
@@ -321,17 +269,18 @@
                         </div>
                     </form>  -->
 
-                    <form action="https://api.web3forms.com/submit" method="POST">
+                    <form  class="fields" action="https://api.web3forms.com/submit" method="POST">
 
     <!-- Replace with your Access Key -->
     <input type="hidden" name="access_key" value="39e2721e-1035-4811-ad2f-f785a0470ef9">
 
     <!-- Form Inputs. Each input must have a name="" attribute -->
-     
-     <input class="field name" type="text" name="name" required>
-    <input class="field email" type="email" name="email" required>
+     <div  class="fields">
+    <input class="field name" placeholder="Name" type="text" name="name" required>
+    <input class="field email" type="email" placeholder="Email" name="email" required>
+</div>
     <input class="field" type="text" placeholder="Subject" required>
-    <textarea class="field textarea" name="message" required></textarea>
+    <textarea class="field textarea" name="message" placeholder="Your message.." required></textarea>
 
     <!-- Honeypot Spam Protection -->
     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
