@@ -7,7 +7,7 @@ body {
     font-family: "Playpen Sans", cursive;
     margin: 0;
     padding: 0;
-    background-image: url(./assets/pexels-rickyrecap-2061223.jpg);
+    background-image: url(../assets/pexels-rickyrecap-2061223.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
